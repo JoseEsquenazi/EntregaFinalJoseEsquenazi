@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Pago</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/form-styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body class="form-container">
+
+
+    <div class="primary-header">
+        <a href="#"><img src="./img/Performance_Logo_BWr1687519239035.png" alt=""></a>
+        <a href="#"><img src="./img/TeamViewer-logo-white-header-new1669974858159.png" alt=""></a>
+        <a href="#"><img src="./img/DXC_Logo_White1656502520956.png" alt=""></a>
+        <a href="#"><img src="./img/TezosLogo_Horizontal_White1644483074005 (1).png" alt=""></a>
+    </div>
+
+    <div class="flex-row">
+        <header>
+            <a href="#"><img src="./img/Manchester_United_FC_crest.svg.png" alt=""></a>
+        </header>
+
+        <nav>
+            <ul class="navbar">
+                <li><a href="#">NOTICIAS</a></li>
+                <li><a href="#">TIENDA</a></li>
+                <li><a href="#">PARTIDOS</a></li>
+                <li><a href="#">MI UNITED</a></li>
+                <li><a href="#">JUGADORES</a></li>
+                <li><a href="#">VIDEOS</a></li>
+                <li><a href="#">ADEMAS</a></li>
+            </ul>
+        </nav>
+
+        <div id="class-container">
+            <input type="text" name="" id=""> 
+            <button><i class="fas fa-magnifying-glass"></i></button>
+        </div>
+    </div>
+
+    <div class="form-wrapper">
+        <h1>Formulario de Pago</h1>
+
+        <form id="formularioPago">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" required>
+
+            <label for="fechaNacimiento">Fecha de Nacimiento:</label>
+            <input type="date" id="fechaNacimiento" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" required>
+
+            <label for="tarjeta">Número de Tarjeta:</label>
+            <input type="text" id="tarjeta" pattern="[0-9]{16}" required>
+
+            <label for="codigoSeguridad">Código de Seguridad:</label>
+            <input type="text" id="codigoSeguridad" pattern="[0-9]{3}" required>
+
+            <button type="submit">Realizar Pago</button>
+        </form>
+    </div>
+</body>
+</html>

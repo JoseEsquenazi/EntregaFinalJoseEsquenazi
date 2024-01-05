@@ -1,0 +1,185 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    /* font-family: 'Arial', sans-serif; */
+    margin: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#catalogo, #carrito {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#catalogo img {
+    max-width: 25%; 
+    height: auto;
+}
+
+#opcionesCompra {
+    margin-top: 20px;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.primary-header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.primary-header a img {
+    height: 30px;
+    width: auto;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #666;
+}
+
+header img {
+    height: 80px;
+    width: auto;
+}
+
+nav {
+    flex-grow: 2;
+}
+
+.navbar {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#class-container {
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    padding: 20px;
+}
+
+.primary-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.form-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.form-container .primary-header{
+    width: 100%;
+
+}
+
+.form-container .flex-row{
+    width: 100%;
+}
+
+.form-wrapper {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+}
+
+.form-wrapper h1 {
+    text-align: center;
+    color: #333;
+}
+
+.form-wrapper label {
+    display: block;
+    margin-bottom: 8px;
+    color: #555;
+}
+
+.form-wrapper input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+}
+
+.form-wrapper button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form-wrapper button:hover {
+    background-color: #2980b9;
+}
+
+
+.fila-catalogo {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px; 
+}
+
+.fila-catalogo img {
+    width: 80%; 
+    margin-bottom: 10px; 
+}
